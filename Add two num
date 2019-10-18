@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Sum {
 
     public static void main(String[] args) {
-    
+        
         
         Scanner in = new Scanner(System.in);
 
@@ -16,8 +16,10 @@ public class Sum {
         
         
         int result = num1 + num2;
+        float average=result/2;
 
         
         System.out.println("Sum of " + num1 + " and " + num2 + " is : " + result);
+        System.out.println("average of"+ average);
     }
 }
